@@ -1,0 +1,94 @@
+<html>
+<head>
+  <title>ReefLog - Reef Chemistry Calculator</title>
+  <meta name="Description" content="BabyFeed is an app for your smartphone that helps you with keeping track of the daily activities of your babies">
+  <link href="styles.css" rel="stylesheet"/>
+	<link rel="stylesheet" href="css/ceebox.css" type="text/css" media="screen" />
+  <script type="text/javascript" src="jquery.js"></script>
+	<script type='text/javascript' src='jquery.swfobject.js' ></script>
+	<script type='text/javascript' src='jquery.metadata.js'></script>
+	<script type='text/javascript' src='jquery.color.js'></script>
+  <script type='text/javascript' src='jquery.ceebox.js'></script>
+  
+  <script type="text/javascript">
+    $(function() {
+      $(document).ready(function(){ 
+      	$(".embeded").ceebox();
+      	$(".slideshow").ceebox();
+      });    
+    });
+    
+    function showSlideShow() {
+      	$("#firstslide").click();
+    }
+  </script>
+</head>
+<body>
+  <div id="center-div">
+    <div id="border-top">&nbsp;</div>
+    <div id="border-middle">
+      <div id="banner-top">&nbsp;</div>
+
+      <!-- Buttons -->
+      <div id="btn-container">
+        <a href="http://store.ovi.com/content/258713">
+          <div id="buy-btn">
+            <div id="buy-btn-text">Download</div>
+          </div>
+        </a>
+        <a href="javascript:showSlideShow();">
+          <div id="manual-btn">
+            <div id="manual-btn-text">Images</div>
+          </div>
+        </a>
+      </div>
+
+      <div id="body-text">
+        ReefLog Chemistry Calculator is the ultimate tool for your Reef keeping hobby.<br>
+        <br>
+        Keep track of all your reef aquarium parameters and calculate adjustments with ease!<br>
+        <br>
+        <span class="heading">Features:</span><br>
+        <ul>
+          <li>Multiple aquariums</li> 
+          <li>Log measurements of Calcium, Alkalinity and Magnesium parameters</li> 
+          <li>Calculates additives dosages based on current and desired values</li> 
+          <li>Over 20 different additive types with option to update</li> 
+          <li>Set dosage alarms, with automatic dosage intervals (e.g. divide by 3 days)</li>
+        </ul>
+      </div>
+
+      <div id="social">
+        <!-- AddThis Button BEGIN -->
+        <div class="addthis_toolbox addthis_default_style ">
+        <a class="addthis_button_preferred_1"></a>
+        <a class="addthis_button_preferred_2"></a>
+        <a class="addthis_button_preferred_3"></a>
+        <a class="addthis_button_preferred_4"></a>
+        <a class="addthis_button_compact"></a>
+        <a class="addthis_counter addthis_bubble_style"></a>
+        </div>
+        <script type="text/javascript">var addthis_config = {"data_track_clickback":true};</script>
+        <script type="text/javascript" src="http://s7.addthis.com/js/250/addthis_widget.js#pubid=ra-4e237df45206c08f"></script>
+        <!-- AddThis Button END -->
+              
+        <iframe id="facebook"  src="http://www.facebook.com/plugins/likebox.php?href=http%3A%2F%2Fwww.facebook.com%2FReefLog&amp;width=315&amp;height=440&amp;colorscheme=light&amp;show_faces=false&amp;border_color&amp;stream=true&amp;header=true&amp;force_wall=true" scrolling="no" frameborder="0" style="border:none; overflow:hidden; width:315px; height:440px;" allowTransparency="true"></iframe>
+      </div>      
+      <div id="clear-bottom"></div>      
+      <br/>
+    </div>
+    <div id="border-bottom">
+      <div id="contacts">For support or feedback, contact us through Facebook</div>
+    </div>
+  </div>
+
+  <!-- Popups -->
+  <ul style="display:none" class="slideshow">
+    <li><a id="firstslide" title="New record" href="screenshots/ovi_primary_screenshot.png"></a></li>
+    <li><a title="Splash screen" href="screenshots/scr000026.jpg"></a></li>
+    <li><a title="Record history" href="screenshots/scr000027.jpg"></a></li>
+    <li><a title="Edit Record" href="screenshots/scr000028.jpg"></a></li>
+    <li><a title="Schedule" href="screenshots/scr000031.jpg"></a></li>
+  </ul>
+</body>
+</html>

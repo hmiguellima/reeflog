@@ -1,0 +1,24 @@
+Caros Aquariofilistas,
+
+Tenho o maior gosto em vos informar que está disponível para download gratuito, a minha nova aplicação ReefLog para SmartPhones Nokia, que permite manter os registos das medições de parâmetros da água, em aquários de recife, bem como assistir no cálculo das dosagens de aditivos.
+
+Funcionalidades:
+- Múltiplos aquários.
+- Regista medições de cálcio, alcalinidade e magnésio.
+- Calcula dosagens de aditivos baseado nos valores actuais e desejados de cada parâmetro.
+- Mais de 20 tipos de aditivos, e com actualizações via Internet.
+- Permite definir alarmes de dosagem com intervalos.
+
+Neste momento, a aplicação está completamente gratuita e sem qualquer tipo de publicidade !
+
+Apenas funciona em SmartPhones Nokia com o sistema Symbian 5ª edição (ex: Nokia 5800) ou superior (ex: Nokia N8), e encontra-se apenas em Inglês.
+
+O endereço da aplicação na página web da Nokia é http://store.ovi.com/content/258713, mas também podem encontrar a aplicação directamente na app de loja do próprio telefone.
+
+Podem também consultar a página da aplicação no endereço http://www.hlimasoft.com ou em http://www.facebook.com/ReefLog.
+
+Agradeço a todos os vossos comentários e sugestões.
+
+Obrigado.
+
+Hugo Lima.

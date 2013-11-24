@@ -1,0 +1,42 @@
+<RCC>
+    <qresource prefix="/icons">
+        <file>icons/leftarrowcue.png</file>
+        <file>icons/rightarrowcue.png</file>
+        <file>icons/up-arrow.png</file>
+        <file>icons/down-arrow.png</file>
+        <file>icons/down-arrow-disabled.png</file>
+        <file>icons/up-arrow-disabled.png</file>
+        <file>icons/mg.png</file>
+        <file>icons/alk.png</file>
+        <file>icons/ca.png</file>
+    </qresource>
+    <qresource prefix="/tr"/>
+    <qresource prefix="/txt">
+        <file>about.txt</file>
+    </qresource>
+    <qresource prefix="/resources">
+        <file>resources/initdb.sql</file>
+        <file>resources/styles.txt</file>
+        <file>resources/checkbox_on.png</file>
+        <file>resources/checkbox_off.png</file>
+        <file>resources/back_vertical.png</file>
+        <file>resources/about_btn.png</file>
+        <file>resources/back_horizontal.png</file>
+        <file>resources/new_btn.png</file>
+        <file>resources/back_btn.png</file>
+        <file>resources/splash_vertical.png</file>
+        <file>resources/new_down_btn.png</file>
+        <file>resources/quit_down_btn.png</file>
+        <file>resources/about_down_btn.png</file>
+        <file>resources/quit_btn.png</file>
+        <file>resources/save_btn.png</file>
+        <file>resources/schedule_down_btn.png</file>
+        <file>resources/schedule_btn.png</file>
+        <file>resources/cancel_down_btn.png</file>
+        <file>resources/cancel_btn.png</file>
+        <file>resources/save_down_btn.png</file>
+        <file>resources/ok_btn.png</file>
+        <file>resources/ok_down_btn.png</file>
+        <file>resources/back_down_btn.png</file>
+    </qresource>
+</RCC>

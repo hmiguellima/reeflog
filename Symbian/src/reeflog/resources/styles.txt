@@ -1,0 +1,482 @@
+#centralwidget {
+}
+
+QLabel {
+	font-size: 20px;
+	font-weight: bold;
+	color: rgb(0, 0, 0);
+}
+
+QListView {
+	color: rgb(0, 0, 0);
+	font-size: 8pt;
+}
+
+
+QTabWidget::pane { 
+	border-top: 2px solid #E4E0E0;
+	border-style: solid;
+	border-width: 1px;
+	background-color: rgba(0, 0, 0, 50);
+}
+
+QTabWidget::tab-bar {
+	left: 0px;
+}
+
+QTabBar::tab {
+ 	border: 2px solid rgb(121, 124, 121);
+	min-width: 8ex;
+	padding: 6px;
+	color: rgb(0, 0, 0);
+}
+
+#dosageadvicehorizontalview  QTabBar::tab {
+  min-width: 0px;
+}
+
+QTabBar::tab:!selected {
+	background-color: qlineargradient(spread:pad, y1:0.318, x1:0, y2:1, x2:0, stop:0 rgba(225, 225, 225, 255), stop:1 rgba(117, 117, 117, 255));
+	padding: 6px;
+	margin-top: 2px; 
+	font-size: 5pt;
+}
+
+QTabBar::tab:selected {
+	background-color: qlineargradient(spread:pad, y1:0.318, x1:0, y2:1, x2:0, stop:0 rgba(225, 225, 225, 255), stop:1 rgba(117, 117, 255, 255));
+	margin-left: -4px;
+	margin-right: -4px;
+	font-size: 6pt;
+}
+
+QTabBar::tab:first:selected {
+	background-color: qlineargradient(spread:pad, y1:0.318, x1:0, y2:1, x2:0, stop:0 rgba(225, 225, 225, 255), stop:1 rgba(117, 117, 255, 255));
+	margin-left: 0;
+}
+
+QTabBar::tab:last:selected {
+	margin-right: 0;
+}
+
+QTabBar::tab:only-one {
+	margin: 0;
+}
+
+ManualEventScreen #scrollAreaWidgetContents_2 {
+	background-image: url(:/resources/resources/main_screen_bgr.png);
+}
+
+#kineticPagesContainer {
+	background-color: rgb(225, 225, 225);
+}
+
+QComboBox {
+  min-height: 30px;
+  background-color: rgb(60, 60, 60);
+  border: 2px solid gray;
+  border-radius: 4px;
+  padding: 0 8px;
+  font-size: 8pt;
+}
+
+QComboBox QAbstractItemView {
+	border: 2px solid darkgray;
+	padding: 0px;
+	background-color: rgb(225, 225, 225);
+	selection-background-color: lightgray;
+	font-size: 9pt;
+}
+
+QComboBox::drop-down {
+  subcontrol-origin: border;
+  subcontrol-position: top right; 
+  background-color: qlineargradient(spread:pad, y1:0.318, x1:0, y2:1, x2:0, stop:0 rgba(225, 225, 225, 255), stop:1 rgba(117, 117, 255, 255));
+  width: 40px; 
+  height: 28px;
+  border: 2px solid darkgray;
+}
+
+QComboBox::down-arrow {
+  image: url(:/icons/icons/down-arrow.png);
+  width: 15px;
+  height: 13px;
+}
+  
+QDateTimeEdit, QSpinBox {
+  min-height: 30px;
+}
+
+QDateTimeEdit::up-button, QSpinBox::up-button {
+  subcontrol-origin: border;
+  subcontrol-position: top right; /* position at the top right corner */
+  background-color: qlineargradient(spread:pad, y1:0.318, x1:0, y2:1, x2:0, stop:0 rgba(225, 225, 225, 255), stop:1 rgba(117, 117, 255, 255));
+  width: 40px; 
+  height: 28px;
+  border: 2px solid darkgray;
+}
+
+QDateTimeEdit::up-arrow, QSpinBox::up-arrow {
+  image: url(:/icons/icons/up-arrow.png);
+  width: 15px;
+  height: 13px;
+}
+
+QDateTimeEdit::up-arrow:disabled, QDateTimeEdit::up-arrow:off, QSpinBox::up-arrow:disabled, QSpinBox::up-arrow:off { /* off state when value is max */
+  image: url(:/icons/icons/up-arrow-disabled.png);
+}
+
+QDateTimeEdit::down-button, QSpinBox::down-button {
+  subcontrol-origin: border;
+  subcontrol-position: top right; 
+  background-color: qlineargradient(spread:pad, y1:0.318, x1:0, y2:1, x2:0, stop:0 rgba(225, 225, 225, 255), stop:1 rgba(117, 117, 255, 255));
+  margin-right: 48px;
+  width: 40px; 
+  height: 28px;
+  border: 2px solid darkgray;
+}
+
+QDateTimeEdit::down-arrow, QSpinBox::down-arrow {
+  image: url(:/icons/icons/down-arrow.png);
+  width: 15px;
+  height: 13px;
+}
+
+QDateTimeEdit::down-arrow:disabled, QDateTimeEdit::down-arrow:off, QSpinBox::down-arrow:disabled, QSpinBox::down-arrow:off { /* off state when value in min */
+  image: url(:/icons/icons/down-arrow-disabled.png);
+}
+
+
+QMessageBox {
+	border: 2px solid darkgray;
+	background-color: rgb(225, 225, 225);
+	color: rgb(0, 0, 0);
+}
+
+QLCDNumber {
+	color: rgb(255, 255, 255);
+}
+
+QCheckBox {
+  spacing: 4px;
+}
+
+QCheckBox::indicator {
+  width: 72px;
+  height: 32px;
+}
+
+QCheckBox::indicator:unchecked {
+  image: url(:/resources/resources/checkbox_off.png);
+}
+
+QCheckBox::indicator:checked {
+  image: url(:/resources/resources/checkbox_on.png);
+}
+
+QCheckBox::indicator:indeterminate {
+  image: url(:/resources/resources/checkbox_off.png);
+}
+
+QCalendarWidget QAbstractItemView {
+	selection-background-color: rgb(117, 117, 255);
+	selection-color: rgb(255, 255, 255);
+	background-color: rgb(215, 215, 215);
+	color: rgb(255, 255, 255);
+}
+
+QFileDialog {
+	border: 2px solid darkgray;
+	background-color: rgb(0, 0, 0);
+	color: rgb(255, 255, 255);
+}
+
+DatePickerDialog, BusyDialog {
+  background-color: rgb(0, 0, 0);
+}
+
+QLineEdit {
+  background-color: rgb(60, 60, 60);
+  min-height: 30px;
+  border: 2px solid gray;
+  border-radius: 4px;
+  padding: 0 8px;
+  font-size: 9pt;
+}
+
+#targetlabel {
+  color: rgb(0, 0, 0);
+  background-color: rgba(0, 0, 255, 60);
+  border-radius: 4px;
+	font-size: 7pt;
+  margin-bottom: 10px;
+	min-height: 30px;
+	max-height: 30px;
+	padding-left: 15px;
+}
+
+#currentlabel {
+  color: rgb(0, 0, 0);
+  background-color: rgba(255, 0, 0, 60);
+  border-radius: 4px;
+	font-size: 7pt;
+  margin-bottom: 10px;
+	min-height: 30px;
+	max-height: 30px;
+	padding-left: 15px;
+}
+
+#editrecordverticalview {
+	background-image: url(:/resources/resources/back_vertical.png);
+	background-position: top left;
+	background-repeat: no-repeat;
+	padding-top: 62px;
+	padding-left: 15px;
+	padding-right: 12px;
+}
+
+#baseverticalview {
+	background-image: url(:/resources/resources/back_vertical.png);
+	background-position: top left;
+	background-repeat: no-repeat;
+	padding-top: 64px;
+	padding-left: 15px;
+	padding-right: 12px;
+}
+
+#baseverticalview QListView {
+  min-height: 420px;
+  max-height: 420px;
+}
+
+#dosageadviceverticalview {
+	background-image: url(:/resources/resources/back_vertical.png);
+	background-position: top left;
+	background-repeat: no-repeat;
+	padding-top: 58px;
+	padding-left: 15px;
+	padding-right: 12px;
+}
+
+#scheduleverticalview {
+	background-image: url(:/resources/resources/back_vertical.png);
+	background-position: top left;
+	background-repeat: no-repeat;
+	padding-top: 58px;
+	padding-left: 15px;
+	padding-right: 12px;
+}
+
+#dosageamountlabel {
+  font-size: 18px;
+  color: white;
+}
+
+#dosageadvicelabel {
+  font-size: 14px;
+  color: white;
+}
+
+#dosageadviceverticalview #panel, #editrecordverticalview #panel,  #scheduleverticalview #panel {
+  min-height: 420px;
+  max-height: 420px;
+}
+
+
+#basehorizontalview, #editrecordhorizontalview {
+	background-image: url(:/resources/resources/back_horizontal.png);
+	background-position: top left;
+	background-repeat: no-repeat;
+	padding-top: 64px;
+	padding-left: 8px;
+	padding-bottom: 20px;
+}
+
+#dosageadvicehorizontalview {
+	background-image: url(:/resources/resources/back_horizontal.png);
+	background-position: top left;
+	background-repeat: no-repeat;
+	padding-top: 62px;
+	padding-left: 12px;
+	padding-bottom: 10px;
+}
+
+#basehorizontalview QListView {
+  min-width: 510px;
+  max-width: 510px;
+}
+#dosageadvicehorizontalview #panel {
+  min-width: 515px;
+  max-width: 515px;
+}
+
+#editrecordhorizontalview #panel {
+  min-width: 510px;
+  max-width: 510px;
+}
+
+#newbtn {
+	background-image: url(:/resources/resources/new_btn.png);
+	background-position: top left;
+	background-repeat: no-repeat;
+	padding: 0px;
+	margin: 0px; 
+	border: none;
+	width: 89px;
+	height: 65px;
+}
+
+#newbtn:pressed {
+	background-image: url(:/resources/resources/new_down_btn.png);
+}
+
+#aboutbtn {
+	background-image: url(:/resources/resources/about_btn.png);
+	background-position: top left;
+	background-repeat: no-repeat;
+	padding: 0px;
+	margin: 0px; 
+	border: none;
+	width: 89px;
+	height: 65px;
+}
+
+#aboutbtn:pressed {
+	background-image: url(:/resources/resources/about_down_btn.png);
+}
+
+#backbtn {
+	background-image: url(:/resources/resources/back_btn.png);
+	background-position: top left;
+	background-repeat: no-repeat;
+	padding: 0px;
+	margin: 0px; 
+	border: none;
+	width: 89px;
+	height: 65px;
+}
+
+#backbtn:pressed {
+	background-image: url(:/resources/resources/back_down_btn.png);
+}
+
+#quitbtn {
+	background-image: url(:/resources/resources/quit_btn.png);
+	background-position: top left;
+	background-repeat: no-repeat;
+	padding: 0px;
+	margin: 0px; 
+	border: none;
+	width: 89px;
+	height: 65px;
+}
+
+#quitbtn:pressed {
+	background-image: url(:/resources/resources/quit_down_btn.png);
+}
+
+#savebtn {
+	background-image: url(:/resources/resources/save_btn.png);
+	background-position: top left;
+	background-repeat: no-repeat;
+	padding: 0px;
+	margin: 0px; 
+	border: none;
+	width: 89px;
+	height: 65px;
+}
+
+#savebtn:pressed {
+	background-image: url(:/resources/resources/save_down_btn.png);
+}
+
+#cancelbtn {
+	background-image: url(:/resources/resources/cancel_btn.png);
+	background-position: top left;
+	background-repeat: no-repeat;
+	padding: 0px;
+	margin: 0px; 
+	border: none;
+	width: 89px;
+	height: 65px;
+}
+
+#cancelbtn:pressed {
+	background-image: url(:/resources/resources/cancel_down_btn.png);
+}
+
+#schedulebtn {
+	background-image: url(:/resources/resources/schedule_btn.png);
+	background-position: top left;
+	background-repeat: no-repeat;
+	padding: 0px;
+	margin: 0px; 
+	border: none;
+	width: 89px;
+	height: 65px;
+}
+
+#schedulebtn:pressed {
+	background-image: url(:/resources/resources/schedule_down_btn.png);
+}
+
+#titlelabel {
+  font-size: 14pt;
+  color: rgb(255, 255, 255);
+	min-height: 50px;
+	max-height: 50px;
+  padding-left: 12px;
+  padding-right: 12px;
+  margin: 0px;
+  background-color: rgba(0, 0, 0, 150);
+}
+
+#okbtn {
+	background-image: url(:/resources/resources/ok_btn.png);
+	background-position: top left;
+	background-repeat: no-repeat;
+	padding: 0px;
+	margin: 0px; 
+	border: none;
+	width: 89px;
+	height: 65px;
+}
+
+#okbtn:pressed {
+	background-image: url(:/resources/resources/ok_down_btn.png);
+}
+
+#productslabel {
+  color: rgb(0, 0, 0);
+  background-color: rgba(0, 0, 255, 60);
+  border-radius: 4px;
+	font-size: 7pt;
+  margin-bottom: 2px;
+	min-height: 25px;
+	max-height: 25px;
+	padding-left: 15px;
+}
+
+#producttitlelbl {
+  color: rgb(0, 0, 0);
+  background-color: rgba(0, 0, 255, 60);
+  border-radius: 4px;
+	font-size: 7pt;
+  margin-bottom: 2px;
+	min-height: 25px;
+	max-height: 25px;
+	padding-left: 15px;
+}
+
+#desiredparamslbl, #currentparamslbl, #watervollbl  {
+  font-size: 14px;
+  padding:0px;
+  margin:0px;
+}
+
+MyComboBox QListView {
+  background-color: rgba(255, 255, 255, 230);
+}
+
+QProgressDialog {
+  background-color: rgba(255, 255, 255, 230);
+}
